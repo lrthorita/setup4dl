@@ -63,7 +63,7 @@ This part was based on the [nvidia-reinstall](https://gist.github.com/morgangira
 	```
 - [ ] 4. Test cuda.
 	```
-	cd ~/NVIDIA_CUDA-9.0_Samples/1_Utilities/deviceQuery
+	cd ~/NVIDIA_CUDA-10.2_Samples/1_Utilities/deviceQuery
 	./deviceQuery
 	```
 
