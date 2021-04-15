@@ -52,14 +52,12 @@ This part was based on the [nvidia-reinstall](https://gist.github.com/morgangira
 	export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
 	export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 	export CUDA_HOME=/usr/local/cuda-10.2
-	nvcc --version
 	```
 - [ ] 3. Use the toolkit to check your CUDA capable devices
 	```
 	cuda-install-samples-10.2.sh ~/.
 	cd ~/NVIDIA_CUDA-10.2_Samples/1_Utilities/deviceQuery
 	make
-	shutdown -r now
 	```
 - [ ] 4. Test cuda.
 	```
